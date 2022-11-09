@@ -103,9 +103,10 @@ header {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
+  text-decoration: none;
 }
 
-.logo span {
+.logo__span {
   color: var(--accent-color);
 }
 
@@ -114,7 +115,12 @@ header {
   align-items: center;
 }
 
-.site-nav,
+.site-nav {
+  display: flex;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+
 .contacts {
   display: flex;
   letter-spacing: 0.02em;
@@ -803,7 +809,7 @@ footer .subscribe {
   transition: transform var(--cubic-function);
 }
 
-.button-close-cross {
+.modal__button-close-cross {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -816,11 +822,11 @@ footer .subscribe {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 15px;
 }
-.button-close-cross:hover, .button-close-cross:focus {
+.modal__button-close-cross:hover, .modal__button-close-cross:focus {
   cursor: pointer;
 }
 
-.button-close-cross .icon {
+.modal__button-close-cross .icon {
   display: block;
   fill: #000000;
 }

@@ -26,7 +26,7 @@
     <!-- Модальное окно -->
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <div class="button-close-cross" data-modal-close>
+            <div class="modal__button-close-cross" data-modal-close>
                 <svg class="icon" width="11px" height="11px" fill="currentColor" aria-hidden="true">
                     <use href="images/symbol-defs.svg#close-cross"></use>
                 </svg>
@@ -34,7 +34,7 @@
             <p>Оставьте свои данные, мы вам перезвоним</p>
             <form class="form-modal js-speaker-form">
 
-                <label>
+                <label class="form-modal__lable">
                     <span class="form-input-name">Имя</span>
 
                     <input type="text" name="form-name" placeholder=" " class="input-text">
@@ -42,25 +42,25 @@
                         <use href="images/symbol-defs.svg#form-human"></use>
                     </svg>
                 </label>
-                <label>
+                <label class="form-modal__lable">
                     <span class="form-input-name">Телефон</span>
                     <input type="tel" name="form-phone" class="input-text" placeholder=" ">
                     <svg width="18px" height="18px" fill="currentColor" aria-hidden="true">
                         <use href="images/symbol-defs.svg#form-phone"></use>
                     </svg>
                 </label>
-                <label>
+                <label class="form-modal__lable">
                     <span class="form-input-name">Почта</span>
                     <input type="email" name="form-mail" class="input-text" placeholder=" ">
                     <svg width="18px" height="18px" fill="currentColor" aria-hidden="true">
                         <use href="images/symbol-defs.svg#form-envelope"></use>
                     </svg>
                 </label>
-                <label class="coments">
+                <label class="form-modal__lable coments">
                     <span>Комментарий</span><textarea name="form-comment" class="input-text comment"
                         placeholder="Введите текст"></textarea>
                 </label>
-                <label class="consent">
+                <label class="form-modal__lable consent">
                     <input type="checkbox" name="form-consent" value="true" class="visually-hidden">
                     <svg class="icon form-checkbox unchecked" fill="currentColor" aria-hidden="true">
                         <use href="images/symbol-defs.svg#form-icon-uncheck"></use>
@@ -71,7 +71,7 @@
 
                     <span>Соглашаюсь с рассылкой и принимаю</span> <a href="">Условия договора</a>
                 </label>
-                <label class="button ">
+                <label class="form-modal__lable button ">
                     <button class="button primary subscribe-action" type="submit">Отправить</button>
 
 
@@ -83,9 +83,9 @@
 
     <!-- Шапка сайта -->
     <header>
-        <div class="container main-nav">
+        <div class="main-nav container">
             <nav class="main-nav">
-                <a href="./index.html" class="logo link"><span>Web</span>Studio</a>
+                <a href="./index.html" class="logo"><span class="logo__span">Web</span>Studio</a>
                 <ul class="list site-nav">
                     <li class="item"><a href="index.html" class="link active">Студия</a></li>
                     <li class="item"><a href="portfolio.html" class="link">Портфолио</a></li>
@@ -93,7 +93,7 @@
                 </ul>
             </nav>
 
-            <ul class="list contacts">
+            <ul class="contacts list">
                 <li class="item"><a href="mailto:info@devstudio.com" class="link">
                         <svg class="icon" width="16px" height="12px" aria-hidden="true">
                             <use href="images/symbol-defs.svg#envelope-hover"></use>

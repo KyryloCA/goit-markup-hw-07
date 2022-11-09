@@ -40,7 +40,7 @@
     transition: transform var(--cubic-function);
 }
 
-.button-close-cross {
+.modal__button-close-cross {
     position: absolute;
     top: 8px;
     right: 8px;
@@ -63,7 +63,7 @@
 
 
 
-.button-close-cross .icon {
+.modal__button-close-cross .icon {
     display: block;
     fill: #000000;
 }

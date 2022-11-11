@@ -204,7 +204,7 @@ header {
   color: var(--accent-color);
 }
 
-.site-nav .link.active::before {
+.header__item .link.active::after {
   position: absolute;
   bottom: -1px;
   left: 0;
@@ -216,7 +216,7 @@ header {
   background-color: var(--hero-button-color);
 }
 
-.list.site-nav .link.active {
+.header__list .link.active {
   position: relative;
 }
 
@@ -429,12 +429,6 @@ header {
   border: 0;
   border-radius: 4px;
   cursor: pointer;
-}
-
-.button-hero {
-  padding: 10px 32px;
-  display: inline-block;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .button-gallery {

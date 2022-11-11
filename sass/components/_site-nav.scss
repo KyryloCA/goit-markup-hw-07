@@ -135,7 +135,7 @@ header {
     color: var(--accent-color);
 }
 
-.site-nav .link.active::before {
+.header__item .link.active::after {
     position: absolute;
     bottom: -1px;
     left: 0;
@@ -147,6 +147,8 @@ header {
     background-color: var(--hero-button-color);
 }
 
-.list.site-nav .link.active {
+
+
+.header__list .link.active {
     position: relative;
 }

@@ -4,7 +4,6 @@ header {
 }
 
 .logo {
-    margin-right: 93px;
     display: block;
 
     color: #000000;
@@ -14,15 +13,29 @@ header {
     text-decoration: none;
 }
 
+.header__logo {
+    margin-right: 93px;
+}
 
 
 .logo__span {
     color: var(--accent-color);
 }
 
-.main-nav {
+.header__container {
     display: flex;
     align-items: center;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+
+.header__list {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
 }
 
 .site-nav {

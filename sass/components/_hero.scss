@@ -22,17 +22,21 @@
     letter-spacing: 0.06em;
     background-color: var(--hero-button-color);
     transition: background-color var(--cubic-function);
+    padding: 10px 32px;
+    display: inline-block;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
     &:hover,
     &:focus {
         background-color: var(--hero-button-color-accent);
     }
-
 }
 
 
 
-.hero h1 {
+
+.hero__slogan {
+
     text-transform: uppercase;
     color: var(--secondary-bg-color);
     font-weight: 900;
@@ -43,4 +47,10 @@
     margin-bottom: 30px;
     /* outline: 1px solid blue; */
 
+}
+
+.hero__slogan--centered {
+    max-width: 696px;
+    margin-left: auto;
+    margin-right: auto;
 }
